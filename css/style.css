@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+body{
+    background: linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255,1)), url(../img/bg.png) no-repeat;
+    background-size: cover;
+    height: 120vh;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100% !important;
+}
+
+
+.content{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    margin:  0 auto;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 50%;
+}
+
+.logo p{
+   font-size: 16px;
+   text-align: center;
+   width: 60%;
+}
+
+.logo span{
+    font-weight: bolder;
+}
+
+.form-group{
+    width: 100%;
+}
+
+.formulario{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.formulario label{
+    margin-left: 10px;
+    color: #EA1A23;
+}
+
+.formulario input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #EA1A23;
+    background-color: transparent;
+}
+
+.formulario input:focus-visible{
+    border: 1px solid #EA1A23 !important;
+}
+
+.formulario select{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #EA1A23;
+    background-color: transparent;
+}
+
+.form-group .nome{
+    display: flex;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrar{
+    width: 100%;
+    background-color: #EA1A23;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px     ;
+}
+
+.cadastro{
+    color: #EA1A23;
+    font-weight: light;
+}
+
+.senha{
+    color: #003A90;
+    font-weight: light;
+}
+
+.institucional{
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: light;
+    color: gray;
+}
+
+.institucional a{
+    font-weight: bolder;
+    color: #003A90;
+}
+
+.formulario h3{
+    text-align: center;
+    font-weight: bold;
+    color: #EA1A23;
+}
+
+.l-2{
+    margin-top: 50px;
+}

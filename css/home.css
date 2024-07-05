@@ -1,0 +1,27 @@
+header{
+    padding: 20px 50px;
+}
+
+.unidade img{
+    height: 400px;
+}
+
+.hemocentros{
+    padding-bottom: 20%;
+}
+
+.perfil-texto{
+    color: #EA1A23;
+}
+
+.texto-unidade{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-unidade h6{
+    font-size: 3rem;
+}

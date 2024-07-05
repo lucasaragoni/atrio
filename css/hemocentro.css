@@ -1,0 +1,343 @@
+body{
+    background: #fff;
+}
+
+img{
+    max-width: 100%;
+}
+
+.content-header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.651)), url(../img/bg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-doador p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+
+.formulario{
+    padding: 30px;
+    margin-top: 1% !important;
+}
+
+.genero{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.opcao{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.formulario input[type="radio"]{
+    margin-bottom: 0;
+    width: 20%;
+}
+
+.formulario label{
+    width: 80%;
+}
+
+.formulario textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #EA1A23;
+    background-color: transparent;
+    height: 300px;
+}
+
+.perfil-texto a{
+    color: #EA1A23 !important;
+    text-decoration: none;
+}
+
+.perfil-texto h2{
+    color: #EA1A23;
+}
+
+
+.perfil-texto h5{
+    font-size: 18px;
+    font-weight: light;
+}
+
+.perfil-foto img{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.conteudo{
+    margin: 20px auto;
+    width: 80%;
+    margin-bottom: 300px;
+}
+
+
+.doadores img{
+    border-radius: 50%;
+    height: 220px;
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.perfil-doador{
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.unidade{
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 10 #000;
+    margin-top: 5%  ;
+}
+
+.unidade img{
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 3/2;
+    height: 200px;
+    object-fit: cover;
+}
+
+.texto-unidade{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1));
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.texto-unidade h6{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.texto-unidade p{
+    font-weight: light;
+    color: #fff;
+}
+
+.texto-unidade a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.texto-unidade a::after{
+    content: "\f061";
+    font-family: 'FontAwesome';
+    margin-left: 10px;
+}
+
+
+.busca{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-bottom: 50px;
+   width: 80%;
+   margin: 50px auto;
+}
+
+
+.busca input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #EA1A23;
+    border-radius: 10px;
+    position: relative;
+}
+
+.busca-botao{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.busca button{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    background-color: #EA1A23;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.raking{
+    padding-bottom: 30%;
+}
+
+
+.pontuacao h2{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.destaque{
+    padding: 50px;
+}
+
+.destaque img{
+    border-radius: 20px;
+}
+
+.destaque-hemo h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #EA1A23;
+}
+
+.lista-destaque{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #00000065;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.info-destaque{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info-destaque img{
+    border-radius: 50%;
+}
+
+.texto-destaque{
+    margin-left: 10px;
+}
+
+
+.texto-destaque h3{
+    font-size: 18px;
+}
+
+.texto-destaque h5{
+    font-size: 14px;
+}
+
+.colocacao{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-left: 20px;
+}
+
+
+.linha{
+    display: flex;
+    margin-top: 20px;
+}
+
+.tipo-sangue{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #00000079;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.tipo-sangue h2{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.tipo-sangue p{
+    font-size: 14px;
+}
+
+.prioridade{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #EA1A23;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.doar{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: none;
+    background-color: #EA1A23;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.destaque-hemo h3{
+    color: gray;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.destaque-hemo h4{
+    font-size: 18px;
+}
+
+.destaque-hemo p{
+    color: gray;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.outras-info{
+    margin-top: 20px;
+}
+
+.prioridade{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    background-color: #EA1A23;
+    color: #fff;
+    border-radius: 5px;
+}
